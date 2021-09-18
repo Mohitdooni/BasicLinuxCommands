@@ -43,4 +43,24 @@ mv App03.txt /tmp/test/testingTypes/unitTest/App03.txt
 ```
  vi /tmp/test/testingTypes/unitTest/App02.txt
 ```
+#### Remove all txt files under  /tmp/test/testingTypes/unitTest
+```
+rm  /tmp/test/testingTypes/unitTest/*.txt
+```
 
+## Assignment
+<ul>
+ <li> Create a ERPProj directory under /home/ubuntu/GithubProjects </li>
+ <li> Create three more diectories and sub directories under ERPProj directories as mentioned below <br />
+      /home/ubuntu/GithubProjects/ERPProj/Modules <br />
+      /home/ubuntu/GithubProjects/ERPProj/Modules/BAL <br />
+      /home/ubuntu/GithubProjects/ERPProj/Modules/DAL <br />
+  /home/ubuntu/GithubProjects/ERPProj/Modules/UIL <br /> </li>
+ <li>Create some dummy 3 files under  BAL and DAL </li>
+ <li>Create some html files under /home/ubuntu directoy (like index.html and test.html) </li>
+ <li>Move all these html file under /home/ubuntu/GithubProjects/ERPProj/Modules/UIL </li>
+ <li>Create a new folder called /home/ubuntu/FinalProject </li>
+ <li> Move ERPProj to FinalProject folder </li>
+ <li> Read all files one by one check it is moved successfully or not </li>
+</ul>      
+  
